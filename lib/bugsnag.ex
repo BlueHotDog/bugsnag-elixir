@@ -1,4 +1,5 @@
 defmodule Bugsnag do
+  @moduledoc false
   use Application
   import Supervisor.Spec
   require Logger

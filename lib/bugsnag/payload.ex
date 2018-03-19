@@ -1,4 +1,7 @@
 defmodule Bugsnag.Payload do
+  @moduledoc """
+  A simple wrapper for Bugsnag Payload, given an exception, stacktrace and options, creates a payload ready to sent to bugsnag.
+  """
   @notifier_info %{
     name: "Bugsnag Elixir",
     version: Bugsnag.Mixfile.project()[:version],
